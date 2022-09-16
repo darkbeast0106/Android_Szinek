@@ -7,16 +7,17 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:background="#000"
+    android:id="@+id/layout"
     >
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textSzin"
-        android:text="Ez egy színezett szöveg"
+        android:text="(0,0,0)"
         android:layout_centerInParent="true"
         android:textSize="30sp"
-        android:textColor="@color/red"
+        android:textColor="@color/white"
         />
 
 </RelativeLayout>
